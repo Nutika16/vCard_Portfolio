@@ -1,0 +1,159 @@
+vCard - Personal Portfolio
+
+alt = Your name
+Your Name
+Your Profession
+
+Show Contacts
+
+Email  
+you@example.com
+
+Phone  
++1 (123) 456-7890
+
+Birthday  
+January 1, 1990
+
+Location  
+Your City, Your Country
+
+
+# navbar
+
+About  
+Resume  
+Portfolio  
+Publications  
+Contact
+
+## About Me
+
+I’m a passionate professional focused on building clean, efficient, and impactful solutions. With experience in areas like web development, design, or data science (you can update this), I enjoy solving real-world problems through technology and creativity.
+
+Whether you're looking to build a modern website, showcase your portfolio, or present research, this portfolio helps you communicate your skills effectively.
+
+Feel free to update this section with your own bio and experience.
+
+
+## service
+
+What I'm Doing
+
+alt = service 1 icon
+Web Design  
+Modern and high-quality designs built with creativity and usability in mind.
+
+alt = service 2 icon  
+Web Development  
+Responsive and scalable websites developed using industry best practices.
+
+alt = service 3 icon  
+Mobile Apps  
+Cross-platform mobile applications tailored to user needs.
+
+alt = service 4 icon  
+Machine Learning  
+Research and implementation of ML solutions for real-world challenges.
+
+
+
+# resume
+
+## Education
+
+University Name  
+Year – Year  
+Brief description of your course, specialization, or achievements.
+
+Course/Program Name  
+Year – Year  
+Mention certifications or bootcamps you’ve completed.
+
+## Experience
+
+Job Title – Company  
+Year – Year  
+Describe your role and contributions briefly.
+
+Freelancer / Intern / Volunteer  
+Year – Year  
+Mention the skills used and results delivered.
+
+## Skills
+
+Web Development      80%  
+UI/UX Design         70%  
+Programming (Python, JS)  85%  
+Machine Learning     75%
+
+
+Experience
+
+Creative director
+2015 — Present
+Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+
+Art director
+2013 — 2015
+Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+Web designer
+2010 — 2013
+Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+My skills
+
+Web design
+80%
+Graphic design
+70%
+Branding
+90%
+WordPress
+50%
+
+
+
+# portfolio
+
+alt = project 1  
+Project Title  
+Web Design / Development / Research
+
+alt = project 2  
+Project Title  
+App / Script / Tool
+
+alt = project 3  
+Project Title  
+Client Work / Hackathon / Showcase
+
+
+
+# Publications
+
+Publications
+
+alt = Publication 1  
+Research / Blog / Cybersecurity  
+MM DD, YYYY  
+Publication Title  
+Brief overview of your publication or post. Include research areas, results, or tools used.
+
+alt = Blog Post  
+Design / Tech / AI  
+MM DD, YYYY  
+Blog Title  
+Summarize your article or learning experience in a few sentences.
+
+# contact
+
+Contact
+Contact Form
+
+Full Name  
+Email Address  
+Your Message
+
+[Send Message]
