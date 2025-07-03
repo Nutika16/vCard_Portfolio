@@ -2,9 +2,9 @@
 
 A clean, modern, and fully responsive **personal portfolio website** template, built with **HTML**, **CSS**, and **JavaScript**. Perfect for showcasing your resume, projects, research, and publications online.
 
-![GitHub repo size](https://img.shields.io/github/repo-size/nutika16/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/nutika16/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/nutika16/vcard-personal-portfolio?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/Nutika16/vCard_Portfolio)
+![GitHub stars](https://img.shields.io/github/stars/Nutika16/vCard_Portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Nutika16/vCard_Portfolio?style=social)
 
 ---
 
