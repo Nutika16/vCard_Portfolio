@@ -1,20 +1,10 @@
-#🌐 vCard - Personal Portfolio Website
+# 🌐 vCard - Personal Portfolio Website
 
 A clean, modern, and fully responsive **personal portfolio website** template, built with **HTML**, **CSS**, and **JavaScript**. Perfect for showcasing your resume, projects, research, and publications online.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/nutika16/vcard-personal-portfolio)
 ![GitHub stars](https://img.shields.io/github/stars/nutika16/vcard-personal-portfolio?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/nutika16/vcard-personal-portfolio?style=social)
-
----
-
-## 📸 Live Demo
-
-| Desktop View                                      | Mobile View                                     |
-| ------------------------------------------------- | ----------------------------------------------- |
-| ![Desktop Demo](./website-demo-image/desktop.png) | ![Mobile Demo](./website-demo-image/mobile.png) |
-
-> 👉 **[View Live Demo](#)** _(Replace with your live portfolio link once deployed)_
 
 ---
 
@@ -25,7 +15,7 @@ A clean, modern, and fully responsive **personal portfolio website** template, b
 - 🎨 Easy customization
 - 📄 Add projects, publications, experience, contact info & more
 - 🌙 Dark mode support _(optional)_
-- 📬 Contact form (frontend-ready)
+- 📬 Contact form powered by **Formspree**
 
 ---
 
@@ -47,16 +37,29 @@ git clone https://github.com/nutika16/vcard-personal-portfolio.git
 ### Navigate into the project folder:
 cd vcard-personal-portfolio
 
+📬 Contact Form (Formspree Integration)
+This portfolio uses Formspree to handle contact form submissions. No backend setup is needed.
+
+To activate the contact form:
+
+Go to https://formspree.io
+
+Sign up and create a new form
+
+Replace the action URL in the <form> tag inside the contact section:
+<form action="https://formspree.io/f/your-form-id" method="POST" class="form">
+
 📄 License
 This project is licensed under the MIT License.
 
 🙋‍♀️ Contact
 Created and maintained by @nutika16
-For collaboration or inquiries, feel free to reach out via:
 
-📫 GitHub: @Nutika16
+For collaboration or inquiries, feel free to reach out:
 
-💼 LinkedIn: https://www.linkedin.com/in/nutika-kumar-/
+💼 LinkedIn
 
 📧 Email: nutikakumar123@gmail.com
+
+🐙 GitHub: @nutika16
 ```
