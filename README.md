@@ -16,6 +16,7 @@ A clean, modern, and fully responsive **personal portfolio website** template, b
 - 📄 Add projects, publications, experience, contact info & more
 - 🌙 Dark mode support _(optional)_
 - 📬 Contact form powered by **Formspree**
+- 🧾 **Generic content template included**: A reference file with placeholder text to help you quickly customize the site for yourself
 
 ---
 
