@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vCard - Nutika Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/My_image_Nutika.jpg"
+              alt="Nutika"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Nutika">Nutika</h1>
+
+            <p class="title">
+              Cyber Security Analyst|<br />
+              Java Developer|<br />
+              Test Automation
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:nutikakumar123@gmail.com" class="contact-link"
+                  >nutikakumar123@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+917206995376" class="contact-link">7206995376</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">16 Nov, 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Ambala, Haryana, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/nutika-kumar-/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/Nutika16" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://instagram.com/nutika_kumar" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+              <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Publication</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I’m a passionate and detail-oriented Cyber Security enthusiast
+              with a solid foundation in multiple technologies. After clearing
+              the Wipro interview process, I completed a comprehensive 3-month
+              training in Cyber Security, gaining hands-on experience with
+              network security, data protection, and critical infrastructure
+              defense. This training deepened my interest in securing digital
+              systems and has driven me to pursue a career in the cybersecurity
+              domain.
+            </p>
+
+            <p>
+              Throughout my academic journey, I’ve also worked on diverse
+              projects—ranging from full-stack web applications to Core Java
+              development. I’ve built responsive front-ends using HTML, CSS,
+              Tailwind CSS, Bootstrap, and React, and explored back-end tools
+              like Node.js and MongoDB. These projects gave me a strong
+              technical base and a creative edge. Now, I’m combining that
+              background with a security-first mindset to help build safer,
+              smarter digital solutions. Whether it’s coding, securing, or
+              innovating—I’m always ready to take on the next challenge.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    🔐 Cyber Security Fundamentals
+                  </h4>
+
+                  <p class="service-item-text">
+                    Currently expanding my skills through the Ultimate Ethical
+                    Hacking Full Course 2025 with hands-on labs using Kali
+                    Linux, learning penetration testing, vulnerability scanning,
+                    and ethical hacking techniques. Also completed a
+                    specialization from NYU Tandon School of Engineering
+                    covering cyber attacks, countermeasures, real-time threat
+                    detection, and infrastructure security.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    ☕ Core Java Development
+                  </h4>
+
+                  <p class="service-item-text">
+                    Revisiting and strengthening my Core Java concepts through
+                    revision and hands-on coding. Currently building a project
+                    titled "IPL Scorecard" and consistently trying to solve at
+                    least one Java problem a day on coding platforms to apply
+                    and reinforce my knowledge.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">💻 Web Development</h4>
+
+                  <p class="service-item-text">
+                    Created a personal vCard portfolio using HTML, CSS, and
+                    JavaScript, which I'm currently working on to showcase my
+                    skills and projects.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">📚 Continuous Learning</h4>
+
+                  <p class="service-item-text">
+                    Consistently learning and upskilling in both development and
+                    cybersecurity to stay updated with modern tools, practices,
+                    and technologies.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Chitkara University
+                </h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">
+                  Completed Bachelor's degree in Computer Science and Engineering with a CGPA of 8.86.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">P.K.R Jain SR. SEC. Public School</h4>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                 Completed 12th grade with 90.4% in PCM (Physics, Chemistry, Mathematics) under CBSE Board.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  P.K.R Jain SR. SEC. Public School
+                </h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  Completed 10th grade under CBSE Board with 84.4%.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Cyber Security Trainee</h4>
+
+                <span>Wipro Campus Training | Jan 2025 – Apr 2025</span>
+
+                <p class="timeline-text">
+                  Completed a 3-month Cyber Security training conducted by Wipro on campus, focusing on data security, network security, and critical infrastructure protection. Gained foundational knowledge and practical insights into securing digital systems.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+           <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Professional & Leadership Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">President</h4>
+
+                <span>Bits ‘N’ Bytes | Jan 2024 – Dec 2024 | Rajpura, Patiala, India</span>
+
+                <p class="timeline-text">
+                  Led the Bits 'N' Bytes student organization, overseeing a team of 60+ members and managing all operations.
+                </p>
+                <p class="timeline-text">
+                  Implemented innovative strategies to increase membership and engagement, resulting in notable growth.
+                </p>
+              </li>
+            </ol>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Public Relations Head</h4>
+
+                <span>IEEE CIET | May 2023 – Aug 2024 | Rajpura, Patiala, India</span>
+
+                <p class="timeline-text">
+                 Oversaw MOUs and led collaborative efforts between IEEE-CIET and partner organizations.
+                </p>
+                <p class="timeline-text">
+                 Facilitated partnerships with CertifyME and CodingSaathi, creating professional development and internship opportunities for members.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CSS</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Java</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Linux</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MySql</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Cyber Security</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://nutika16.github.io/TodoList/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Todolist.png"
+                      alt="TodoList"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">TodoList</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://nutika16.github.io/Temperature_Convertor/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/TemperatureConverter.png"
+                      alt="tempconvertor"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Temperature Convertor</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://nutika16.github.io/Instagram_replica/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Instagram_replica.png"
+                      alt="insta_replica"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Instagram Clone</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://nutika16.github.io/DadJokes/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/DadJokes.png"
+                      alt="Dadjokes"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DadJokes</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://github.com/Nutika16/Invoice_Generator?tab=readme-ov-file">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/InvoiceGenerator.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Invoice Generator</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Cyber"
+              >
+                <a href="https://github.com/Nutika16/HashBuster">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Hashbuster.png"
+                      alt="HashBuster"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">HashBuster-Password Cracking tool</h3>
+
+                  <p class="project-category">Cyber</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Java"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/BankManagement.png"
+                      alt="Atm_simulator"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Bank Management System</h3>
+
+                  <p class="project-category">Java</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - Publication
+      -->
+
+      <article class="publication" data-page="publication">
+  <header>
+    <h2 class="h2 article-title">Publication</h2>
+  </header>
+
+  <section class="publication-posts">
+    <ul class="publication-posts-list">
+
+      <!-- Publication 1 -->
+      <li class="publication-post-item">
+        <a href="https://ieeexplore.ieee.org/document/10199890">
+          <figure class="publication-banner-box">
+            <img src="./assets/images/PublishedPaper.png" alt="Published Paper on Implementation of Deep Learning Technique for Citrus Leaf Blotch Disease Severity Detection" loading="lazy" />
+          </figure>
+
+          <div class="publication-content">
+            <div class="publication-meta">
+              <p class="publication-category">Publisher: IEEE</p>
+              <span class="dot"></span>
+              <time datetime="2025-07-01">Published On: Aug 07, 2023</time>
+            </div>
+
+            <h3 class="h3 publication-item-title">Published Paper: Implementation of Deep Learning Technique for Citrus Leaf Blotch Disease Severity Detection</h3>
+            <p class="publication-text">
+              Published research focusing on the use of Convolutional Neural Networks (CNNs) to detect and classify the severity of Citrus Leaf Blotch Disease using leaf images. This system aids in early diagnosis and promotes precision agriculture.
+            </p>
+          </div>
+        </a>
+      </li>
+
+    </ul>
+  </section>
+</article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27578.458963857934!2d76.78140505000001!3d30.37817865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f925d5c90a3db%3A0xd82fdb05eddb2c8f!2sAmbala%2C%20Haryana!5e0!3m2!1sen!2sin!4v1688362234457!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+  <h3 class="h3 form-title">Contact Form</h3>
+
+  <form action="https://formspree.io/f/mjkrzoow" method="POST" class="form">
+    <div class="input-wrapper">
+      <input
+        type="text"
+        name="fullname"
+        class="form-input"
+        placeholder="Full name"
+        required
+      />
+
+      <input
+        type="email"
+        name="email"
+        class="form-input"
+        placeholder="Email address"
+        required
+      />
+    </div>
+
+    <textarea
+      name="message"
+      class="form-input"
+      placeholder="Your Message"
+      required
+    ></textarea>
+
+    <button class="form-btn" type="submit">
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+  </form>
+</section>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
