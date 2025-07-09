@@ -54,7 +54,7 @@ Created and maintained by @nutika16
 
 For collaboration or inquiries, feel free to reach out:
 
-💼 LinkedIn
+💼 LinkedIn: nutika_kumar
 
 📧 Email: nutikakumar123@gmail.com
 
